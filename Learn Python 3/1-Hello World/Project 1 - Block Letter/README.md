@@ -1,4 +1,4 @@
-# Project 1 - BlockLetter
+# Project 1 - Block Letters
 
 Block Letters
 ASCII art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from individual characters.
