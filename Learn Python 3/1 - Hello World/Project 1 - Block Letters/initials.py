@@ -1,3 +1,5 @@
+# 🔤 Block Letters project.
+
 # José Anderson Ramos Aquino
 # Fun fact: I like to eat a lot! XD
 
