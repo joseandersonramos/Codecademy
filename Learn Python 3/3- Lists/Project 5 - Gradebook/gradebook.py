@@ -33,7 +33,7 @@ gradebook[2].append('Pass')
 print()
 print(gradebook)
 
-# Concatenate the las semester with the current one.
+# Concatenate the last semester with the current one.
 full_gradebook = last_semester_gradebook + gradebook
 
 print()
