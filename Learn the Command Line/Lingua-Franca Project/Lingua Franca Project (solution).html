@@ -1,0 +1,79 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Task Group 1: Navigating the File System.md</title><style></style></head><body id="preview">
+<h2 class="code-line" data-line-start="0" data-line-end="1"><a id="Task_Group_1_Navigating_the_File_System_0"></a>Task Group 1: Navigating the File System</h2>
+<h3 class="code-line" data-line-start="2" data-line-end="3"><a id="Task_1_2"></a>Task 1</h3>
+<p class="has-line-data" data-line-start="3" data-line-end="4">cd ~/Downloads/lingua-franca-project/lingua-franca/</p>
+<h3 class="code-line" data-line-start="5" data-line-end="6"><a id="Task_2_5"></a>Task 2</h3>
+<p class="has-line-data" data-line-start="6" data-line-end="7">pwd</p>
+<h3 class="code-line" data-line-start="8" data-line-end="9"><a id="Task_3_8"></a>Task 3</h3>
+<p class="has-line-data" data-line-start="9" data-line-end="10">ls</p>
+<h3 class="code-line" data-line-start="11" data-line-end="12"><a id="Task_4_11"></a>Task 4</h3>
+<p class="has-line-data" data-line-start="12" data-line-end="13">mkdir world/</p>
+<h3 class="code-line" data-line-start="14" data-line-end="15"><a id="Task_5_14"></a>Task 5</h3>
+<p class="has-line-data" data-line-start="15" data-line-end="17">touch world/esperanto.txt<br>
+ls world/</p>
+<h2 class="code-line" data-line-start="18" data-line-end="19"><a id="Task_Group_2_Viewing_and_Changing_the_File_System_18"></a>Task Group 2: Viewing and Changing the File System</h2>
+<h3 class="code-line" data-line-start="20" data-line-end="21"><a id="Task_6_20"></a>Task 6</h3>
+<p class="has-line-data" data-line-start="21" data-line-end="24">ls -alt<br>
+Which directory would appear first?<br>
+The world directory</p>
+<h3 class="code-line" data-line-start="25" data-line-end="26"><a id="Task_7_25"></a>Task 7</h3>
+<p class="has-line-data" data-line-start="26" data-line-end="28">ls europe/<br>
+mv europe/chinese.txt asia/</p>
+<h3 class="code-line" data-line-start="29" data-line-end="30"><a id="Task_8_29"></a>Task 8</h3>
+<p class="has-line-data" data-line-start="30" data-line-end="34">cp spanish.txt europe/<br>
+cp spanish.txt northamerica/<br>
+cp spanish.txt southamerica/<br>
+rm spanish.txt</p>
+<h3 class="code-line" data-line-start="35" data-line-end="36"><a id="Task_9_35"></a>Task 9</h3>
+<p class="has-line-data" data-line-start="36" data-line-end="37">ls todo/*</p>
+<h3 class="code-line" data-line-start="38" data-line-end="39"><a id="Task_10_38"></a>Task 10</h3>
+<p class="has-line-data" data-line-start="39" data-line-end="42">cp todo/africa/* africa/<br>
+cp todo/asia/* asia/<br>
+cp todo/europe/* europe/</p>
+<h3 class="code-line" data-line-start="43" data-line-end="44"><a id="Task_11_43"></a>Task 11</h3>
+<p class="has-line-data" data-line-start="44" data-line-end="45">rm -r todo/*</p>
+<h2 class="code-line" data-line-start="46" data-line-end="47"><a id="Task_Group_3_Redirecting_Input_and_Output_46"></a>Task Group 3: Redirecting Input and Output</h2>
+<h3 class="code-line" data-line-start="48" data-line-end="49"><a id="Task_12_48"></a>Task 12</h3>
+<p class="has-line-data" data-line-start="49" data-line-end="50">ls asia/ &gt; todo/asian_language_files.txt</p>
+<h3 class="code-line" data-line-start="51" data-line-end="52"><a id="Task_13_51"></a>Task 13</h3>
+<p class="has-line-data" data-line-start="52" data-line-end="53">echo Welkom by die Lingua Franca vertaaldienste. &gt; africa/afrikaans.txt</p>
+<h3 class="code-line" data-line-start="54" data-line-end="55"><a id="Task_14_54"></a>Task 14</h3>
+<p class="has-line-data" data-line-start="55" data-line-end="56">wc -l <em>/</em>.txt | grep 0 &gt; todo/empty_files.txt</p>
+<h3 class="code-line" data-line-start="57" data-line-end="58"><a id="Task_15_57"></a>Task 15</h3>
+<p class="has-line-data" data-line-start="58" data-line-end="59">cat todo/empty_files.txt</p>
+<h3 class="code-line" data-line-start="60" data-line-end="61"><a id="Task_16_60"></a>Task 16</h3>
+<p class="has-line-data" data-line-start="61" data-line-end="63">grep -Rl ‘Lingua-Franca’ <em>/</em>.txt | wc -l<br>
+sed -i ‘s/Lingua-Franca/Lingua Franca/g’ <em>/</em>.txt</p>
+<h2 class="code-line" data-line-start="64" data-line-end="65"><a id="Task_Group_4_Configuring_the_Environment_64"></a>Task Group 4: Configuring the Environment</h2>
+<h3 class="code-line" data-line-start="66" data-line-end="67"><a id="Task_17_66"></a>Task 17</h3>
+<p class="has-line-data" data-line-start="67" data-line-end="68">nano .bash_profile</p>
+<h3 class="code-line" data-line-start="69" data-line-end="70"><a id="Task_18_69"></a>Task 18</h3>
+<p class="has-line-data" data-line-start="70" data-line-end="71">echo Welcome!</p>
+<h3 class="code-line" data-line-start="72" data-line-end="73"><a id="Task_19_72"></a>Task 19</h3>
+<p class="has-line-data" data-line-start="73" data-line-end="74">source .bash_profile</p>
+<h3 class="code-line" data-line-start="75" data-line-end="76"><a id="Task_20_75"></a>Task 20</h3>
+<p class="has-line-data" data-line-start="76" data-line-end="79">alias md=‘mkdir’<br>
+alias d=‘date’<br>
+alias hy=‘history’</p>
+<h3 class="code-line" data-line-start="80" data-line-end="81"><a id="Task_21_80"></a>Task 21</h3>
+<p class="has-line-data" data-line-start="81" data-line-end="82">source .bash_profile</p>
+<h3 class="code-line" data-line-start="83" data-line-end="84"><a id="Task_22_83"></a>Task 22</h3>
+<p class="has-line-data" data-line-start="84" data-line-end="88">md translations/<br>
+ls translations/<br>
+d<br>
+hy</p>
+<h3 class="code-line" data-line-start="89" data-line-end="90"><a id="Task_23_89"></a>Task 23</h3>
+<p class="has-line-data" data-line-start="90" data-line-end="92">Desde nano:<br>
+export PS1=’&gt; ’</p>
+<p class="has-line-data" data-line-start="93" data-line-end="95">Desde Bash:<br>
+echo “export PS1=’&gt; '” &gt;&gt; .bash_profile</p>
+<h3 class="code-line" data-line-start="96" data-line-end="97"><a id="Task_24_96"></a>Task 24</h3>
+<p class="has-line-data" data-line-start="97" data-line-end="98">source .bash_profile</p>
+<h3 class="code-line" data-line-start="99" data-line-end="100"><a id="Task_25_99"></a>Task 25</h3>
+<p class="has-line-data" data-line-start="100" data-line-end="104">md folder/<br>
+ls folder/<br>
+d<br>
+hy</p>
+<h3 class="code-line" data-line-start="105" data-line-end="106"><a id="Task_26_105"></a>Task 26</h3>
+<p class="has-line-data" data-line-start="106" data-line-end="107">env</p>
+</body></html>
