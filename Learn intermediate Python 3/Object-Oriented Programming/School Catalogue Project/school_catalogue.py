@@ -38,7 +38,7 @@ class PrimarySchool(School):
 # High School class
 class HighSchool(School):
   def __init__(self, name, numberOfStudents=0, sportsTeams=None):
-    super().__init__(name, 'high', numberOfStudents=0)
+    super().__init__(name, 'high', numberOfStudents)
 
     if sportsTeams == None:
       self.sportsTeams = ['basketball', 'tennis']
@@ -49,8 +49,7 @@ class HighSchool(School):
     return self.sportsTeams
   
   def __repr__(self):
-    return 'Our sports teams are: {}'.format(self.sportsTeams)
+    return super().__repr__() + '. Our sports teams are: {}'.format(self.sportsTeams)
     
 hs = HighSchool('Anderson High', 400)
 print(hs)
-
