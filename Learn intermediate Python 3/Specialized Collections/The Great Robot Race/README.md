@@ -1,0 +1,2 @@
+# The Great Robot Race
+The brushless motors are roaring, and the race is about to begin! In this project, we will be using some of the advanced containers in Python to command, track, and score simple robots which are trying to traverse different mazes. Your job will be to fill in the missing code from the robot_race.py file. A lot of background code has been provided in the robot_race_functions.py file which we will be using, but the primary focus of this project is to use advanced collections in a meaningful way. 
