@@ -1,7 +1,8 @@
 Getting Python Shell To Work on Git Bash
 
-Type in winpty python or python -i.
+Send the code to the .bash_profile
+Create this alias in the .bash_profile (just copy and paste the code in git bash)
+echo "alias python='winpty python.exe'" >> .bash_profile
+
 You can exit the IDLE using exit() or quit().
 
-Send the code to the .bash_profile
-echo 'alias python="python -i"' >> .bash_profile
