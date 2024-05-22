@@ -49,3 +49,11 @@ This tag is used to define the root element of an HTML document. It represents t
 ### `<head></head>`
 
 The `<head>` element contains the metadata for a web page. Metadata is information about the page that isn’t displayed directly on the web page like the tab title. It goes above the `<body>` element.
+
+### Opening links in a new tab
+
+For a link to open in a new tab, the `target` attribute requires a value of `_blank`.
+
+```html
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
+```
