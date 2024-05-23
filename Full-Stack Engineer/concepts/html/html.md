@@ -57,3 +57,40 @@ For a link to open in a new tab, the `target` attribute requires a value of `_bl
 ```html
 <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
 ```
+
+### Linking to relative page
+
+A relative path is a path to another file relative to the current working directory.
+
+If index.html and contact.html are in the same directory, from index.html can be created a link to about.html like so:
+
+```html
+<a href="./contact.html">Contact</a>
+```
+
+The `./` in `./index.html` tells the browser to look for the file in the current folder.
+
+###  Turn any element into a link by wrapping the html element with an anchor element.
+
+```html
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="A Brown bear"/>
+</a>
+```
+
+### Linking to same page
+
+1. First, assign an id to the section of the page you want to link to. For example:
+    ```html
+    <div id="section1">Content of Section 1</div>
+    ```
+2. Next, create a link pointing to that id by using the # symbol followed by the id value:
+    ```html
+    <a href="#section1">Go to Section 1</a>
+    ```
+### Comments
+
+```html
+<!-- This is a comment that the browser will not display. -->
+```
+

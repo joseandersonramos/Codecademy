@@ -3,6 +3,7 @@
 ### Popular Developer Resources
 
 -   [MDN Web Docs](https://developer.mozilla.org/en-US/)
+-   [Debugging HTML](https://validator.w3.org/)
 -   [W3](https://www.w3.org/TR/CSS2/selector.html)
 -   [CSS-Tricks](https://css-tricks.com/)
 -   [DEV Community](https://dev.to/)
