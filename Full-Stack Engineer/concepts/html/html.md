@@ -94,7 +94,28 @@ The `./` in `./index.html` tells the browser to look for the file in the current
 <!-- This is a comment that the browser will not display. -->
 ```
 
-### colspan attribute
+### `<th>` scope attribute
+
+The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows.
+
+>Note: The scope attribute has no visual effect in ordinary web browsers, but can be used by screen readers.
+
+```html
+<table>
+  <tr>
+    <th></th>
+    <th scope="col">Month</th>
+    <th scope="col">Savings</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+```
+
+### `<td>` colspan attribute
 
 Allows table data to occupy more than one column. It accepts an integer greater than or equal to 1.
 
@@ -111,3 +132,4 @@ Allows table data to occupy more than one column. It accepts an integer greater 
   </tr>
 </table>
 ```
+
