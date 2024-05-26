@@ -94,3 +94,20 @@ The `./` in `./index.html` tells the browser to look for the file in the current
 <!-- This is a comment that the browser will not display. -->
 ```
 
+### colspan attribute
+
+Allows table data to occupy more than one column. It accepts an integer greater than or equal to 1.
+
+```html
+<table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+  </tr>
+  <tr>
+    <td colspan="2">Out of Town</td>
+    <td>Back in Town</td>
+  </tr>
+</table>
+```
