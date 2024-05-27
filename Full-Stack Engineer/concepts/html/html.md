@@ -133,3 +133,22 @@ Allows table data to occupy more than one column. It accepts an integer greater 
 </table>
 ```
 
+### `<td>` rowspan attribute
+
+Allows table data to occupy more than one row. It accepts an integer greater than or equal to 1.
+
+```html
+<table>
+  <tr> <!-- Row 1 -->
+    <th></th>
+    <th>Saturday</th>
+  </tr>
+  <tr> <!-- Row 2 -->
+    <th>Morning</th>
+    <td rowspan="2">Work</td>
+  </tr>
+  <tr> <!-- Row 3 -->
+    <th>Afternoon</th>
+  </tr>
+</table>
+```
