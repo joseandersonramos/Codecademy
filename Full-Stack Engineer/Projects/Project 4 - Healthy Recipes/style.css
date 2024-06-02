@@ -1,0 +1,33 @@
+/* Tag selector*/
+img {
+  height: 150px;
+}
+
+/* Class selector */
+.description {
+  font-size: 20px;
+}
+
+/* Id selector */
+#cook-time {
+  font-weight: bold;
+}
+
+/* Select all 'li' within the elements with the class 'ingredients' */
+.ingredients li {
+  list-style: square;
+}
+
+/* Select all 'p' with class 'time' */
+p.time {
+  color: gray; 
+}
+
+.external-link {
+  color: SeaGreen;
+}
+
+/* Multiple selectors */
+h1, h2, p, li {
+  font-family: Helvetica;
+}
