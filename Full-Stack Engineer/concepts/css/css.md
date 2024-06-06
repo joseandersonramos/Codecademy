@@ -38,6 +38,7 @@ Imagine you have a set of floating `<div>` elements and a `<div>` element that y
 In this example:
 
 - The elements with the class `.floating` are set to float to the left (`float: left;`). This means they will line up side by side from left to right, depending on the available space.
+
 - The element with the class `.clear-div` has the `clear: left;` property. This causes the element to position itself below any previous floating elements on the left side, preventing it from being placed alongside the floating elements, regardless of their height or arrangement.
 
 The `clear` property is especially useful in layouts where you need to ensure that certain elements are displayed below others, instead of beside them, which can be crucial for maintaining structure and readability.
