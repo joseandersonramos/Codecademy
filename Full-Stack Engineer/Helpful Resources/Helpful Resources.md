@@ -11,6 +11,8 @@
 - [Can I use](https://caniuse.com/)
 - [Codecademy Workspaces](https://www.codecademy.com/workspaces/new)
 - [Web Safe Fonts](https://www.cssfontstack.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Adobe Fonts](https://fonts.adobe.com/)
 
 ### (Optional) Recommended Books
 
