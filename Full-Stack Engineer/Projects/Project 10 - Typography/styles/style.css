@@ -188,6 +188,7 @@ footer .content {
   flex-grow: 1;
   font-style: italic;
   color: #9b9b9b;
+  line-height: 1.5;
 }
 
 footer p {
