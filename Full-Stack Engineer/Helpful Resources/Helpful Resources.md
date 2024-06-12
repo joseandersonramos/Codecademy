@@ -13,6 +13,12 @@
 - [Web Safe Fonts](https://www.cssfontstack.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Adobe Fonts](https://fonts.adobe.com/)
+- [RGB Colour Mixer](https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
+- [StackEdit - In-browser Markdown editor](https://stackedit.io/)
+
+### Extensions
+
+- [Pesticide for Chrome](https://chromewebstore.google.com/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi)
 
 ### (Optional) Recommended Books
 

@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Build Your Own Cheat Sheet</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1>Common CSS properties</h1>
@@ -17,22 +17,51 @@
       </thead>
       <tbody>
         <tr>
-          <td>color</td>
+          <td class="property"><span class="code">color</span></td>
           <td>Sets the color of a text</td>
           <td>RGB, hex, keyword</td>
         </tr>
         <tr>
-          <td>text-align</td>
+          <td class="property"><span class="code">text-align</span></td>
           <td>Aligns the text in an element</td>
           <td>left, right, center, justify</td>
         </tr>
         <tr>
-          <td>text-transform</td>
+          <td class="property"><span class="code">text-transform</span></td>
           <td>Controls the letters in an element</td>
           <td>none, capitalize, uppercase, lowercase</td>
         </tr>
       </tbody>
     </table>
     <h2>Font Properties</h2>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Property</th>
+          <th scope="col">Description</th>
+          <th scope="col">Values</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="property"><span class="code">font-family</span></td>
+          <td>Specifies the font family for text</td>
+          <td>family-name, generic-family, inherit</td>
+        </tr>
+        <tr>
+          <td class="property"><span class="code">font-style</span></td>
+          <td>Specifies the font style for text</td>
+          <td>normal, italic, oblique, inherit</td>
+        </tr>
+        <tr>
+          <td class="property"><span class="code">font-weight</span></td>
+          <td>Specifies the weight of a font</td>
+          <td>
+            normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700,
+            800, 900, inherit Careful, many of these are not supported!
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
