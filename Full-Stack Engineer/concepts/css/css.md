@@ -70,3 +70,5 @@ The syntax `.breadcrumb li+li::before` in CSS is broken down as follows:
 So, putting it all together, `.breadcrumb li+li::before` targets a virtual element placed just before every `li` element that directly follows another `li` within a parent element with the class `breadcrumb`, except for the very first `li` in the list. This is commonly used to insert content (like a separator symbol) between list items in a navigation breadcrumb.
 
 The content property sets the > symbol, and padding adds space around it to improve readability.
+
+- [Understand '+', '>' and '~' symbols in CSS Selector](https://techbrij.com/css-selector-adjacent-child-sibling)
