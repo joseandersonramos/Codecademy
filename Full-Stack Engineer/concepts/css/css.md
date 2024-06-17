@@ -71,4 +71,4 @@ So, putting it all together, `.breadcrumb li+li::before` targets a virtual eleme
 
 The content property sets the > symbol, and padding adds space around it to improve readability.
 
-- [Understand '+', '>' and '~' symbols in CSS Selector](https://techbrij.com/css-selector-adjacent-child-sibling)
+[Understand '+', '>' and '~' symbols in CSS Selector](https://techbrij.com/css-selector-adjacent-child-sibling)
