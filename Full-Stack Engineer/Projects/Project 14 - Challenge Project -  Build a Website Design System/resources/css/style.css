@@ -33,3 +33,57 @@ section {
 .beige {
   background-color: #efd9ca;
 }
+
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  width: 45%;
+  display: inline-block;
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 50%;
+  display: inline-block;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  max-width: 50%;
+  display: inline-block;
+}
+
+.font-label {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
